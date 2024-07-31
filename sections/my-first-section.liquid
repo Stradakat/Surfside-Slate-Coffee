@@ -1,0 +1,33 @@
+{{ 'component-my-first-section.css' |  asset_url | stylesheet_tag }}
+
+<style>
+    .my-first-section-text-{{section.id}}{
+        color: {{section.settings.text_color}};
+    } 
+</style>
+
+<div class="my-first-section">
+<h3 class="my-first-section-text-{{section.id}}">{{ section.settings.text_input }}</h3>
+</div>
+{% schema %}
+    {
+        "name": "test section",
+        "settings": [
+            {
+                "type": "text",
+                "label": "Text Input",
+                "id": "text_input"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Text color",
+                "default": "#000000"
+            }
+
+        ],
+        "presets": [
+            {"name":"my test section"}
+        ]
+    }
+{% endschema %}

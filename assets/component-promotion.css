@@ -1,0 +1,22 @@
+.promotion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.promotion-container h2{
+    margin: 0;
+}
+
+@media  screen and (min-width: 750px) {
+.promotion-container{
+    flex-direction: row;
+    gap: 4rem;
+    
+}
+}
