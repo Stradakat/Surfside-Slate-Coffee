@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "settings": {
+        "tax": "tax not included",
+        "shipping": "ships in 1 day",
+        "show_reviews": true
+      }
+    },
+    "image_with_text_qRpyGz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6wJnCF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test",
+            "heading_size": "h1"
+          }
+        },
+        "text_xB6tea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Test Text<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_wCtbyt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Test button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6wJnCF",
+        "text_xB6tea",
+        "button_wCtbyt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_qRpyGz"
+  ]
+}

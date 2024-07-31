@@ -126,6 +126,14 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "tax": "please pay your taxes",
+          "shipping": "please ship",
+          "show_reviews": true
+        }
       }
     },
     "content_for_index": []
