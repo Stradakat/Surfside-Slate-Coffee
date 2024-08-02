@@ -10,7 +10,7 @@
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
+    "spacing_grid_horizontal": 16,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -130,8 +130,6 @@
       "main-test-product": {
         "type": "main-test-product",
         "settings": {
-          "tax": "please pay your taxes",
-          "shipping": "please ship",
           "show_reviews": true
         }
       }
